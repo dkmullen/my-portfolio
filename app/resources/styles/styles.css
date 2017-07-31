@@ -11,3 +11,14 @@ p {
     padding: 10px;
   }
 }
+
+.my-div {
+    background-color: $myBlack;
+
+    &--red {
+      color: red;
+    }
+}
+h1 {
+  color: purple;
+}

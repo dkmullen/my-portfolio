@@ -1,0 +1,11 @@
+p {
+  padding-left: 10px;
+  -webkit-columns: 300px 2;
+          columns: 300px 2;
+  color: #FFF;
+}
+
+.box a {
+    display: block;
+    padding: 10px;
+  }

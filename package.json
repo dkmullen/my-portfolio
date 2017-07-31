@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio for my web dev projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkmullen/my-portfolio.git"
+  },
+  "author": "DKM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkmullen/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/dkmullen/my-portfolio#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-nested": "^2.1.0",
+    "postcss-simple-vars": "^4.0.0"
+  }
+}

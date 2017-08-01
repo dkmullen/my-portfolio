@@ -1,24 +1,4 @@
-$myBlack: #FFF;
-p {
-  padding-left: 10px;
-  columns: 300px 2;
-  color: $myBlack;
-}
-
-.box {
-  a {
-    display: block;
-    padding: 10px;
-  }
-}
-
-.my-div {
-    background-color: $myBlack;
-
-    &--red {
-      color: red;
-    }
-}
-h1 {
-  color: purple;
-}
+@import "normalize.css"; /* --- End normalize (NPM package for browser reset) --- */
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_global.css";

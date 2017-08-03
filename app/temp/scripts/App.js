@@ -68,6 +68,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+// App goes here
 
 
 /***/ })

@@ -68,8 +68,15 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
+/*jshint esversion: 6 */
+
 // App goes here
 
+var myAge = function myAge(birthYear) {
+  return 2017 - birthYear;
+};
 
 /***/ })
 /******/ ]);

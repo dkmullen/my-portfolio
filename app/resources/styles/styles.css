@@ -1,4 +1,9 @@
 @import "normalize.css"; /* --- End normalize (NPM package for browser reset) --- */
 @import "base/_variables";
 @import "base/_mixins";
-@import "base/_global.css";
+@import "base/_global";
+@import "modules/_large-hero";
+@import "modules/_btn";
+@import "modules/_wrapper";
+@import "modules/_quote";
+@import "modules/_projects";

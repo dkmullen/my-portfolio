@@ -13,11 +13,6 @@ img {
 * {
   box-sizing: border-box;
 }
-
-h1 {
-  color: $myDarkBlue;
-}
-
 a {
   color: $myLightBlue;
 }

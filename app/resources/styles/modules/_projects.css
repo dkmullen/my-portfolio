@@ -1,0 +1,18 @@
+.projects {
+   &__title {
+     font-size: 4rem;
+     font-weight: 100;
+     text-align: center;
+     padding: 2rem 0;
+
+     @mixin atMedium {
+       font-size: 6rem;
+     }
+   }
+
+   &__featured-project {
+     width: 85%;
+     max-width: 1200px;
+     margin: 0 auto;
+   }
+}

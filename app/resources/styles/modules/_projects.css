@@ -15,4 +15,31 @@
      max-width: 1200px;
      margin: 0 auto;
    }
+
+   &__featured-description {
+     font-size: 1.2rem;
+     font-weight: 300;
+     margin: 0 auto;
+     width: 85%;
+   }
+
+   &__featured-title {
+     font-size: 2.5rem;
+   }
+
+   &__other-projects {
+     background-color: $myBeige;
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     padding: 50px 0;
+
+
+   }
+}
+
+.a-project {
+
+  margin: 0 auto;
+
 }

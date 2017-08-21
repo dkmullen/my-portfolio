@@ -592,3 +592,33 @@ a {
      max-width: 1200px;
      margin: 0 auto;
    }
+
+.projects__featured-description {
+     font-size: 1.2rem;
+     font-weight: 300;
+     margin: 0 auto;
+     width: 85%;
+   }
+
+.projects__featured-title {
+     font-size: 2.5rem;
+   }
+
+.projects__other-projects {
+     background-color: rgb(215, 216, 167);
+     width: 100%;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+     padding: 50px 0;
+
+
+   }
+
+.a-project {
+
+  margin: 0 auto;
+
+}

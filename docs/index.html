@@ -13,28 +13,95 @@
 
   <!-- The build comment (below) directs usemin to modify the link when project builds -->
 
-  <link rel="stylesheet" href="resources/styles/styles-4e987407d8.css"/>
+  <link rel="stylesheet" href="resources/styles/styles-2b3921b056.css"/>
 
 </head>
 
 <body>
   <div class="large-hero">
     <picture>
-      <source srcset="resources/images/hero--lg-i.jpg 1920w,
-        resources/images/hero--lg-hi-dpi-i.jpg 3840w" media="(min-width: 1380px)">
-      <source srcset="resources/images/hero--med-i.jpg 1380w,
-        resources/images/hero--med-hi-dpi-i.jpg 2760w" media="(min-width: 990px)">
-      <source srcset="resources/images/hero--sm-i.jpg 990w,
-        resources/images/hero--sm-hi-dpi-i.jpg 1980w" media="(min-width: 640px)">
-      <img srcset="resources/images/hero--x-sm-i.jpg 640w,
-        resources/images/hero--x-sm-hi-dpi-i.jpg 1280w"
+      <source srcset="resources/images/hero--lg.jpg 1920w,
+        resources/images/hero--lg-hi-dpi.jpg 3840w" media="(min-width: 1380px)">
+      <source srcset="resources/images/hero--med.jpg 1380w,
+        resources/images/hero--med-hi-dpi.jpg 2760w" media="(min-width: 990px)">
+      <source srcset="resources/images/hero--sm.jpg 990w,
+        resources/images/hero--sm-hi-dpi.jpg 1980w" media="(min-width: 640px)">
+      <img srcset="resources/images/hero--x-sm.jpg 640w,
+        resources/images/hero--x-sm-hi-dpi.jpg 1280w"
         alt="Picture of some code" class="large-hero__image">
     </picture>
+
+    <div class="large-hero__text">
+      <h1 class="large-hero__title">Dennis Mullen</h1>
+      <h3 class="large-hero__subtitle">Web Developer</h3>
+      <p><a href="#" class="btn">Get in Touch</a></p>
+    </div>
   </div>
 
-  <h1>Here it is!!!</h1>
-  <p>The happiness of your life depends upon the <a href="#">quality of your thoughts</a>: therefore, guard accordingly, and take care that you entertain no notions unsuitable to virtue and reasonable nature. Marcus Aurelius
-  </p>
+  <div class="quote"><p>The happiness of your life depends upon the <strong>quality of your thoughts</strong>: therefore, guard accordingly, and take care that you entertain no notions unsuitable to virtue and reasonable nature.</p>
+    <div class="quote__author">
+       <em>--Marcus Aurelius</em>
+    </div>
+  </div>
+
+  <div class="projects">
+    <div class="projects__title">PROJECTS</div>
+
+    <div class="projects__featured-project">
+      <picture>
+        <source srcset="resources/images/featured--lg.png 1400w,
+          resources/images/featured--lg-hi-dpi.png 2800w" media="(min-width: 990px)">
+        <source srcset="resources/images/featured--med.png 900w,
+          resources/images/featured--med-hi-dpi.png 1800w" media="(min-width: 640px)">
+        <img srcset="resources/images/featured--sm.png 600w,
+          resources/images/featured--sm-hi-dpi.png 1200w"
+          alt="Laptop showing the directory app">
+      </picture>
+      <div class="projects__featured-description">
+        <div class="projects__featured-title">Directory App</div>
+        <p>An app for clubs, churches, etc. to connect members. This is a project for the Coursera Full-Stack Web Development Specialization. A full-stack app built with <strong>AngularJS and Bootstrap on the front-end and NodeJS, Express and MongoDB on the back-end</strong>. <a href="https://mysterious-dawn-43494.herokuapp.com/#!/login" target="new">Run it</a> or check out the code on <a href="https://github.com/dkmullen/directory-project" target="new">Github</a>.</p>
+      </div>
+    </div>
+
+    <div class="projects__other-projects">
+      <div class="a-project">
+        <div class="a-project__picture">
+          <img src="resources/images/runlog-350.png" />
+        </div>
+        <div class="a-project__description">
+          A run-logger using HTML, CSS, Javascript and the KnockoutJS framework.
+        </div>
+      </div>
+      <div class="a-project">
+        <div class="a-project__picture">
+          <img src="resources/images/runcalc-350.png" />
+        </div>
+        <div class="a-project__description">
+          A time/pace/distance calculator using HTML, CSS, Javascript and the KnockoutJS framework.
+        </div>
+      </div>
+      <div class="a-project">
+        <div class="a-project__picture">
+          <img src="resources/images/calculator-350.png" />
+        </div>
+        <div class="a-project__description">
+          A simple math calculator using HTML, CSS, Javascript and the KnockoutJS framework.
+        </div>
+      </div>
+      <div class="a-project">
+        <div class="a-project__picture">
+          <img src="resources/images/navmaker-350.png" />
+        </div>
+        <div class="a-project__description">
+          A scalable nav-bar template using HTML, CSS, Javascript and the KnockoutJS framework.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
 
   <footer>
 

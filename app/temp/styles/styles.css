@@ -613,12 +613,17 @@ a {
      -ms-flex-wrap: wrap;
          flex-wrap: wrap;
      padding: 50px 0;
-
-
    }
 
-.a-project {
+.projects .a-project {
+     margin: 0 auto;
+     max-width: 320px;
+   }
 
-  margin: 0 auto;
-
-}
+.projects .a-project__description {
+       max-width: 90%;
+       margin: 0 auto;
+       text-align: center;
+       font-size: 1.2rem;
+       font-weight: 300;
+     }

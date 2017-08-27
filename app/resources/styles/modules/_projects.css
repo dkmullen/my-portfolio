@@ -43,8 +43,17 @@
 
    .a-project {
      float: left;
-     width: 33%;
+     width: 100%;
      text-align: center;
+     padding-bottom: 40px;
+
+     @mixin atSmall {
+       width: 50%;
+     }
+
+     @mixin atMedium {
+       width: 33%;
+     }
 
      &__description {
        max-width: 90%;
@@ -53,5 +62,9 @@
        font-size: 1.2rem;
        font-weight: 300;
      }
+
+
+
+
    }
 }

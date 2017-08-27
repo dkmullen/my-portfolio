@@ -1,0 +1,32 @@
+.modal {
+  position: fixed;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, .94);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: $myDarkBlue;
+
+  &__headline {
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 1.3rem;
+
+
+    @mixin atSmall {
+      font-size: 4rem;
+    }
+  }
+
+  &__description {
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: center;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.65;
+  }
+}

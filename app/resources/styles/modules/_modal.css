@@ -10,7 +10,7 @@
   opacity: 0; /* invisible and hidden... */
   visibility: hidden; /* on page load */
   transform: scale(1.2); /* allows for a nice...*/
-  transition: all .3s ease-out /* fade and zoom when we go to visible */
+  transition: all .3s ease-out; /* fade and zoom when we go to visible */
 
   &--is-visible {
     opacity: 1;

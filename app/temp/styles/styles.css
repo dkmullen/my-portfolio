@@ -659,6 +659,88 @@ a {
        font-weight: 300;
      }
 
+.section-headline {
+  font-size: 2.5rem;
+  font-weight: 200;
+  color: rgb(5, 51, 70);
+  text-align: center;
+}
+
+@media (min-width: 530px) {
+
+.section-headline {
+    font-size: 4rem
+}
+  }
+
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp
+Instead edit gulp/templates/spirte */
+
+.icon {
+      background-image: url('../../resources/images/sprites/sprite-6a0585c3.svg');
+    }
+
+.no-svg .icon {
+      background-image: url('../../resources/images/sprites/sprite-6a0585c3.png');
+    }
+
+.icon--comment {
+    width: 66px;
+    height: 66px;
+    background-position: 29.207357859531772% 58.651898734177216%;
+  }
+
+.icon--facebook {
+    width: 23.23px;
+    height: 44.01px;
+    background-position: 79.91046610293472% 51.48619367742652%;
+  }
+
+.icon--github {
+    width: 364.67px;
+    height: 92.67px;
+    background-position: 0 0;
+  }
+
+.icon--instagram {
+    width: 44.01px;
+    height: 44.01px;
+    background-position: 92.32063304152778% 51.48619367742652%;
+  }
+
+.icon--linkedin {
+    width: 87.33px;
+    height: 87.33px;
+    background-position: 0 67.80566327650544%;
+  }
+
+.icon--mail {
+    width: 66px;
+    height: 50px;
+    background-position: 51.280936454849495% 53.258620689655174%;
+  }
+
+.icon--twitter {
+    width: 53.78px;
+    height: 44.06px;
+    background-position: 70.47426257952573% 51.50050016672224%;
+  }
+
+.icon--youtube {
+    width: 36.75px;
+    height: 44px;
+    background-position: 0 100%;
+  }
+
+.temp {
+  /*background-image: url('../../resources/images/sprites/sprite-4475c9b8.svg'); */
+  background-color: red;
+  width: 23.23px;
+  height: 44.01px;
+  background-position: 78.3509377651637% 52.95731184639122%;
+
+}
+
 .modal {
   position: fixed;
   z-index: 5;
@@ -669,10 +751,21 @@ a {
   right: 0;
   color: rgb(5, 51, 70);
   opacity: 0; /* invisible and hidden... */
-  visibility: hidden;
+  visibility: hidden; /* on page load */
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2); /* allows for a nice...*/
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 
-/* on page load */
+/* fade and zoom when we go to visible */
+
+.modal--is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+            transform: scale(1); /* the other end of that zoom effect, above */
+  }
 
 .modal__inner {
     position: absolute;
@@ -723,76 +816,6 @@ a {
 .modal__close:hover {
       color: rgb(242, 114, 21);
     }
-
-.section-headline {
-  font-size: 2.5rem;
-  font-weight: 200;
-  color: rgb(5, 51, 70);
-  text-align: center;
-}
-
-@media (min-width: 530px) {
-
-.section-headline {
-    font-size: 4rem
-}
-  }
-
-/* Do not edit modules/_sprite directly as it is generated automatically by Gulp
-Instead edit gulp/templates/spirte */
-
-.icon {
-      background-image: url('../../resources/images/sprites/sprite-b3a0d22b.svg');
-    }
-
-.no-svg .icon {
-      background-image: url('../../resources/images/sprites/sprite-b3a0d22b.png');
-    }
-
-.icon--comment {
-    width: 66px;
-    height: 66px;
-    background-position: 0 0;
-  }
-
-.icon--facebook {
-    width: 23.23px;
-    height: 44.01px;
-    background-position: 36.89373670851341% 98.52216748768471%;
-  }
-
-.icon--instagram {
-    width: 44.01px;
-    height: 44.01px;
-    background-position: 61.61292903432275% 98.52216748768471%;
-  }
-
-.icon--mail {
-    width: 66px;
-    height: 50px;
-    background-position: 64.07766990291262% 0;
-  }
-
-.icon--twitter {
-    width: 53.78px;
-    height: 44.06px;
-    background-position: 0 98.59575739468181%;
-  }
-
-.icon--youtube {
-    width: 36.75px;
-    height: 44px;
-    background-position: 99.8109640831758% 0;
-  }
-
-.temp {
-  background-image: url("../../resources/images/sprites/sprite-b3a0d22b.svg");
-  background-color: red;
-  width: 44.01px;
-  height: 44.01px;
-  background-position: 61.61292903432275% 98.52216748768471%;
-
-}
 
 .social-icons {
   text-align: center;

@@ -2,7 +2,7 @@
   text-align: center;
 
   &__icon {
-    background-color: $myOrange;
+    background-color: $myLightBlue;
     display: inline-block;
     margin: 0 5px 5px 5px;
     width: 33%;

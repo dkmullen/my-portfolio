@@ -9,6 +9,10 @@ img {
   max-height: auto;
 }
 
+a {
+  color: $myLightBlue;
+}
+
 /* Changes how browsers calc width. '*' calls for all elements to be affected */
 * {
   box-sizing: border-box;

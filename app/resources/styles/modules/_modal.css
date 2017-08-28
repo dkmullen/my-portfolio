@@ -6,7 +6,6 @@
   bottom: 0;
   left: 0;
   right: 0;
-  color: $myDarkBlue;
   opacity: 0; /* invisible and hidden... */
   visibility: hidden; /* on page load */
   transform: scale(1.2); /* allows for a nice...*/
@@ -32,6 +31,10 @@
     margin-bottom: 1.3rem;
     margin-top: 0;
 
+    strong {
+      color: $myLightBlue;
+    }
+
 
     @mixin atSmall {
       font-size: 4rem;
@@ -42,7 +45,7 @@
     font-size: 1.3rem;
     font-weight: 300;
     text-align: center;
-    max-width: 450px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.65;

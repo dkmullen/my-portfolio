@@ -3,7 +3,10 @@
   font-weight: 300;
   max-width: 80%;
   margin: 30px auto;
-  color: $myDarkBlue;
+
+  strong {
+    color: $myLightBlue;
+  }
 
   &__author {
     text-align: right;

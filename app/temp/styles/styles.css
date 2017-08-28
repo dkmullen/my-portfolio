@@ -654,19 +654,6 @@ a {
        font-weight: 300;
      }
 
-.projects .one-more-project {
-     font-size: 1.7rem;
-     font-weight: 300;
-     max-width: 60%;
-     margin: 0 auto;
-     text-align: center;
-     padding-top: 20px;
-   }
-
-.projects .one-more-project strong {
-       color: rgb(242, 114, 21);
-     }
-
 .section-headline {
   font-size: 2.5rem;
   font-weight: 200;

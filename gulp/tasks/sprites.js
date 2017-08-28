@@ -32,11 +32,11 @@ const config = {
 };
 
 gulp.task('beginClean', () => {
-  return del(['./app/temp/sprite', './app/assets/images/sprites']);
+  return del(['./app/temp/sprite', './app/resources/images/sprites']);
 });
 
 gulp.task('createSprite', ['beginClean'], () => {
-  return gulp.src('./app/assets/images/icons/**/*.svg')
+  return gulp.src('./app/resources/images/icons/**/*.svg')
     .pipe(svgSprite(config))
     .pipe(gulp.dest('./app/temp/sprite'));
 });

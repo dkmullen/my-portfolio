@@ -1,7 +1,5 @@
 /*jshint esversion: 6 */
 
-// App goes here
+import Modal from './modules/Modal';
 
-const myAge = (birthYear) => {
-  return 2017 - birthYear;
-};
+const modal = new Modal();

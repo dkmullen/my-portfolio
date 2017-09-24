@@ -1,0 +1,28 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp
+Instead edit gulp/templates/spirte */
+
+    .icon {
+      background-image: url('../../resources/images/sprites/sprite-02a5c473.svg');
+    }
+
+    .no-svg .icon {
+      background-image: url('../../resources/images/sprites/sprite-02a5c473.png');
+    }
+
+  .icon--email {
+    width: 50px;
+    height: 50px;
+    background-position: 0 0;
+  }
+
+  .icon--github {
+    width: 50px;
+    height: 50px;
+    background-position: 100% 0;
+  }
+
+  .icon--linkedin {
+    width: 50px;
+    height: 50px;
+    background-position: 0 100%;
+  }

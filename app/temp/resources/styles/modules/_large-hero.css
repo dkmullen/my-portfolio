@@ -1,0 +1,39 @@
+.large-hero {
+  position: relative;
+
+  &__image {
+    display: block;
+  }
+
+
+  &__text {
+    padding-top: 88px;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+
+    @mixin atSmall {
+      font-size: 4rem;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 1rem;
+
+    @mixin atSmall {
+      font-size: 2rem;
+    }
+  }
+
+}

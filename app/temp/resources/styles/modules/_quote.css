@@ -1,0 +1,24 @@
+.quote {
+  font-size: 1.3rem;
+  font-weight: 300;
+  max-width: 80%;
+  margin: 30px auto;
+
+  strong {
+    color: $myLightBlue;
+  }
+
+  &__author {
+    text-align: right;
+    margin-top: -15px;
+  }
+
+  @mixin atSmall {
+    font-size: 1.6rem;
+  }
+
+  @mixin atMedium {
+    font-size: 1.9rem;
+    max-width: 700px;
+  }
+}

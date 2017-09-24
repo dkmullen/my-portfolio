@@ -1,0 +1,66 @@
+.projects {
+   &__title {
+     font-size: 4rem;
+     font-weight: 100;
+     text-align: center;
+     padding: 2rem 0;
+
+     @mixin atMedium {
+       font-size: 6rem;
+     }
+   }
+
+   &__featured-project {
+     width: 85%;
+     max-width: 1200px;
+     margin: 0 auto;
+   }
+
+   &__featured-description {
+     font-size: 1.2rem;
+     font-weight: 300;
+     margin: 0 auto;
+     width: 85%;
+   }
+
+   &__featured-title {
+     font-size: 2.5rem;
+   }
+
+   &__other-projects {
+     background-color: $myBeige;
+     width: 100%;
+     display: inline-block;
+
+     padding: 50px 0;
+   }
+
+   &__other-projects-wrapper {
+     width: 80%;
+     max-width: 1100px;
+     margin: 0 auto;
+   }
+
+   .a-project {
+     float: left;
+     width: 100%;
+     text-align: center;
+     padding-bottom: 40px;
+
+     @mixin atSmall {
+       width: 50%;
+     }
+
+     @mixin atMedium {
+       width: 33%;
+     }
+
+     &__description {
+       max-width: 90%;
+       margin: 0 auto;
+       text-align: center;
+       font-size: 1.2rem;
+       font-weight: 300;
+     }
+   }
+}
